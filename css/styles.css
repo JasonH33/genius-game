@@ -85,6 +85,7 @@ body {
 /* 3. Game
 /**********************************/
 .game {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   width: var(--game-size);
@@ -141,7 +142,16 @@ body {
 /**********************************/
 /* 3.2 Center
 /**********************************/
-
+.game__options {
+  position: absolute;
+  background-color: var(--clr-center);
+  width: cal(var(--game-size) / 2);
+  height: cal(var(--game-size) / 2);
+  top: calc(var(--game-size / 4));
+  left: calc(var(--game-size / 4));
+  border: var(--game-border);
+  border-radius: 25rem;
+}
 /**********************************/
 /* 3.2.1 GUI
 /**********************************/
