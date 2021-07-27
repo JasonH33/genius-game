@@ -85,12 +85,12 @@ body {
 /* 3. Game
 /**********************************/
 .game {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
   width: var(--game-size);
   height: var(--game-size);
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 5rem;
+  position: relative;
 }
 /**********************************/
 /* 3.1 Pads
@@ -145,10 +145,10 @@ body {
 .game__options {
   position: absolute;
   background-color: var(--clr-center);
-  width: cal(var(--game-size) / 2);
-  height: cal(var(--game-size) / 2);
-  top: calc(var(--game-size / 4));
-  left: calc(var(--game-size / 4));
+  width: calc(var(--game-size) / 2);
+  height: calc(var(--game-size) / 2);
+  top: calc(var(--game-size) / 4);
+  left: calc(var(--game-size) / 4);
   border: var(--game-border);
   border-radius: 25rem;
 }
