@@ -289,3 +289,9 @@ footer {
   font-size: 1rem;
   margin-top: 6rem;
 }
+
+@media (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+}
